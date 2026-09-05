@@ -4,8 +4,11 @@ from web3 import Web3
 
 class Wallet:
     def __init__(self):
-        self.node = ""
-        self.private_key = ""
+        import os
+        from dotenv import load_dotenv
+        load_dotenv()
+        self.node = os.getenv('NODE_URL')
+        self.private_key = os.getenv('PRIVATE_KEY')
 
     def check_node(self):
         base_url = self.node.split('/v2/')[0]
