@@ -1,0 +1,58 @@
+chains = {
+    "sepolia": {
+        "name": "sepolia",
+        "chainId": 11155111,
+        "rpc": "https://eth-sepolia.g.alchemy.com/v2",
+        "explorer": "sepolia.etherscan.io",
+        "explorer_api": "api-sepolia.etherscan.io",
+    },
+    "holesky": {
+        "name": "holesky",
+        "chainId": 17000,
+        "rpc": "https://eth-holesky.g.alchemy.com/v2",
+        "explorer": "holesky.etherscan.io",
+        "explorer_api": "api-holesky.etherscan.io",
+    },
+    "amoy": {
+        "name": "polygon amoy",
+        "chainId": 80002,
+        "rpc": "https://polygon-amoy.g.alchemy.com/v2",
+        "explorer": "amoy.polygonscan.com",
+        "explorer_api": "api-amoy.polygonscan.com",
+    },
+    "base_sepolia": {
+        "name": "base sepolia",
+        "chainId": 84532,
+        "rpc": "https://base-sepolia.g.alchemy.com/v2",
+        "explorer": "sepolia.basescan.org",
+        "explorer_api": "api-sepolia.basescan.org",
+    },
+    "arbitrum_sepolia": {
+        "name": "arbitrum sepolia",
+        "chainId": 421614,
+        "rpc": "https://arb-sepolia.g.alchemy.com/v2",
+        "explorer": "sepolia.arbiscan.io",
+        "explorer_api": "api-sepolia.arbiscan.io",
+    },
+    "optimism_sepolia": {
+        "name": "optimism sepolia",
+        "chainId": 11155420,
+        "rpc": "https://opt-sepolia.g.alchemy.com/v2",
+        "explorer": "sepolia-optimistic.etherscan.io",
+        "explorer_api": "api-sepolia-optimistic.etherscan.io",
+    },
+    "bnb_testnet": {
+        "name": "bnb smart chain testnet",
+        "chainId": 97,
+        "rpc": "https://data-seed-prebsc-1-s1.bnbchain.org:8545",
+        "explorer": "testnet.bscscan.com",
+        "explorer_api": "api-testnet.bscscan.com",
+    },
+    "fuji": {
+        "name": "avalanche fuji",
+        "chainId": 43113,
+        "rpc": "https://avalanche-fuji-c-chain-rpc.publicnode.com",
+        "explorer": "testnet.snowtrace.io",
+        "explorer_api": "api-testnet.snowtrace.io",
+    },
+}
